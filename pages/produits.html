@@ -10,19 +10,78 @@
 
 <!--menu du site-->
 <header>
-    <div>
-        <h1><a href="index.html">Nom de la marque ou logo</a></h1>
+    <div class='menu-logo'>
+        <h1><a href="/index.html"><img src="" alt="Logo"> Nom de la marque ou logo</a></h1>
         <h2>Baseline de la marque</h2>
     </div>
-    <nav>
-        <li><a href="index.html"><img src="" alt="LOGO">Accueil</a></li>
-        <li><a href="produits.html">Nos produits</a></li>
-        <li><a href="contact.html">Contactez-nous</a></li>
+    <nav class="menu-top">
+        <li><a href="/index.html"><img src="" alt="LOGO">Accueil</a></li>
+        <li><a href="/pages/produits.html">Nos produits</a></li>
+        <li><a href="/pages/contact.html">Contactez-nous</a></li>
+        <li><a href="/compte.html">Mon compte</a></li>
     </nav>
 </header>
 
 <!--body-->
 <body>
+    
+    <!--slider produits-->
+    <section id="slider">
+        <!--button slider gauche/droite-->
+        <button id="slide-left">gauche</button>
+        <button id="slide-right">droite</button>
+        <!--une slide produit-->
+        <div class="bloc-slide">
+            <img class="img-slide" src="" alt="img en background">
+            <div>
+                <h2>Nom du produit</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur odio eu viverra fringilla. Cras tincidunt mauris ligula, nec tempor justo tristique ut. In hendrerit vestibulum sapien nec mattis.</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!--div filtres-->
+        <div id="filtres">
+            <h2>Filtres</h2>
+            <!--partie filtres par prix-->
+            <div id="filtre-prix">
+                <input type="range" name="Prix" id="input-prix">
+                <div class="text-filtre-prix">
+                    <input type="text" placeholder="50 €">
+                    <input type="text" placeholder="500 €">
+                    <input type="submit" value="Filtrer">
+                </div>
+            </div>
+            <!--partie filtre par couleurs-->
+            <div id="filtre-couleurs">
+                <h2>Couleurs</h2>
+                <div class="check-filtre-couleurs">
+                    <input type="checkbox" name="rouge" id="filtre-gris">
+                    <input type="checkbox" name="rouge" id="filtre-blanc">
+                    <input type="checkbox" name="rouge" id="filtre-rouge">
+                    <input type="checkbox" name="rouge" id="filtre-bleu">
+                    <input type="checkbox" name="rouge" id="filtre-vert">
+                </div>
+            </div>
+
+            <!--partie filtre par taille-->
+            <div id="filtre-tailles">
+                <h2>Tailles</h2>
+                <div class="check-filtre-couleurs">
+                    <input type="checkbox" name="Small" id="filtre-small"><span>S</span>
+                    <input type="checkbox" name="Medium" id="filtre-medium"><span>M</span>
+                    <input type="checkbox" name="Large" id="filtre-large"><span>L</span>
+                </div>
+            </div>
+        </div>
+
+        <!--div produits-->
+        <div>
+            <select name="trieur" id="trieur"></select>
+        </div>
+    </section>
     
 </body>
 </html>

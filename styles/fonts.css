@@ -1,0 +1,65 @@
+/* unbounded-200 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Unbounded-light';
+    font-style: normal;
+    font-weight: 200;
+    src:url('../elements/fonts/unbounded-v3-latin-200.woff') format('woff');
+  }
+  /* unbounded-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Unbounded-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../elements/fonts/unbounded-v3-latin-regular.woff') format('woff');
+  }
+  /* unbounded-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Unbounded-bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../elements/fonts/unbounded-v3-latin-700.woff') format('woff');
+  }
+  /* unbounded-900 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Unbounded-black';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../elements/fonts/unbounded-v3-latin-900.woff') format('woff');
+  }
+
+  /* raleway-200 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway-light';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../elements/fonts/raleway-v28-latin-200.woff') format('woff');
+  }
+  /* raleway-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/elements/fonts/raleway-v28-latin-regular.woff') format('woff');
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway-bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../elements/fonts/raleway-v28-latin-700.woff') format('woff');
+  }
+  /* raleway-900 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Raleway-black';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../elements/fonts/raleway-v28-latin-900.woff') format('woff');
+  }
