@@ -11,3 +11,39 @@ body, header{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*slider*/
+#slider{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    top: -120px;
+}
+#slide-left{
+    position: absolute;
+    top: 55%;
+    left: 30px;
+}
+#slide-right{
+    position: absolute;
+    top: 55%;
+    right: 30px;
+}
+.img-slide{
+    z-index: -1;
+    position: absolute;
+    top: 100px;
+}
+.bloc-slide{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.text-slide{
+    position: absolute ;
+    z-index: 3;
+    color: rgb(97, 14, 93);
+    background: rgb(1, 56, 28);
+}

@@ -1,22 +1,31 @@
 header{
+    height: 120px;
     display: flex;
     width: 100%;
-    position: relative;
-    background-color: pink;
+    z-index: 999;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
 }
 .menu-logo{
     min-width: 120px;
     margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-logo img{
+    max-height: 90px;
+    height: 60px;
 }
 .menu-top{
     display: flex;
+    width: 40%;
+    justify-content: space-between;
     margin: 10px 50px;
 }
 .menu-top li{
     text-align: center;
-    width: 170px;
     list-style-type: none;
 }
 .menu-top li a{
