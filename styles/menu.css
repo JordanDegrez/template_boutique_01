@@ -23,6 +23,7 @@ header{
 #logo-noir{
     max-height: 90px;
     height: 60px;
+    transition: all .3s;
 }
 #logo-blanc{
     position: absolute;
@@ -39,9 +40,14 @@ header{
     height: 100%;
 }
 .menu-logo a:hover #logo-blanc{
-    left: 13px;
-    top: 3px;
+    left: 4px;
+    top: 13px;
     opacity: 1;
+    transform: scale(1.2);
+    transition: all .3s;
+}
+.menu-logo a:hover #logo-noir{
+    transform: scale(1.2);
     transition: all .3s;
 }
 .menu-top{
