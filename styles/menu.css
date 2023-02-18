@@ -13,14 +13,19 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #logo-noir{
     max-height: 90px;
     height: 60px;
 }
 #logo-blanc{
-    position: relative;
-    left: 50px;
+    position: absolute;
+    left: 0;
+    max-height: 90px;
+    height: 60px;
+    opacity: 0;
+    z-index: -1;
 }
 .menu-top{
     display: flex;
