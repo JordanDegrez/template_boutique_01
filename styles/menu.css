@@ -14,9 +14,13 @@ header{
     justify-content: center;
     align-items: center;
 }
-.menu-logo img{
+#logo-noir{
     max-height: 90px;
     height: 60px;
+}
+#logo-blanc{
+    position: relative;
+    left: 50px;
 }
 .menu-top{
     display: flex;
